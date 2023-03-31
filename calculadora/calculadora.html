@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="input-container">
+        <input id="input" type="text" readonly>
+      </div>
+      <div class="button-row">
+        <button class="button number" onclick="insert('7')">7</button>
+        <button class="button number" onclick="insert('8')">8</button>
+        <button class="button number" onclick="insert('9')">9</button>
+        <button class="button operator" onclick="insert('+')">+</button>
+      </div>
+      <div class="button-row">
+        <button class="button number" onclick="insert('4')">4</button>
+        <button class="button number" onclick="insert('5')">5</button>
+        <button class="button number" onclick="insert('6')">6</button>
+        <button class="button operator" onclick="insert('-')">-</button>
+      </div>
+      <div class="button-row">
+        <button class="button number" onclick="insert('1')">1</button>
+        <button class="button number" onclick="insert('2')">2</button>
+        <button class="button number" onclick="insert('3')">3</button>
+        <button class="button operator" onclick="insert('*')">*</button>
+      </div>
+      <div class="button-row">
+        <button class="button" onclick="clearInput()">C</button>
+        <button class="button number" onclick="insert('0')">0</button>
+        <button class="button" onclick="backspace()">&larr;</button>
+        <button class="button operator" onclick="insert('/')">/</button>
+      </div>
+      <div class="button-row">
+        <button class="button number" onclick="insert('**2')">x<sup>2</sup></button>
+        <button class="button number" onclick="insert('**0.5')">&radic;</button>
+        <button class="button calculate" onclick="calculate()">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
