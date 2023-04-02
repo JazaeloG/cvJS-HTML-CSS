@@ -1,0 +1,130 @@
+/* Fuente y colores generales */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #555;
+    background-color: #f5f5f5;
+  }
+  
+  /* Encabezado */
+  header {
+    position: relative;
+    height: 300px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(0, 140, 221), rgb(21, 233, 240));
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  }
+  
+  /* Formulario de búsqueda */
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -120px;
+  }
+  
+  .searchbox {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  }
+  
+  .search {
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    width: 250px;
+  }
+  
+  .search-btn {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .search-btn:hover {
+    color: #333;
+  }
+  
+  /* Tarjeta del clima */
+  .weather-card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    margin: 40px auto;
+    max-width: 600px;
+  }
+  
+  .city {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  .temperature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .temp-img {
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .temp {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+  
+  .weather {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .range {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+  /* Loader */
+  .loader {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+  
+  /* Pie de página */
+  footer {
+    text-align: center;
+    background-color: #ddd;
+    padding: 20px;
+    font-size: 0.8rem;
+  }
+  
