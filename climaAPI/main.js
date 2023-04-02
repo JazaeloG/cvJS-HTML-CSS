@@ -36,7 +36,7 @@ const api = {
       updateImages(data);
     } catch (err) {
       console.log(err);
-      alert('Hubo un error');
+      alert('No encontrado');
     }
   }
   
