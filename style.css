@@ -252,3 +252,16 @@ a {
     color: #2fb7fe; 
     border-bottom-color: #8e9095;
 }
+
+b {
+    text-decoration: none; 
+    color: #8e9095; 
+    border-bottom: 2px solid #8e9095; 
+    transition: all 0.2s ease-in-out; 
+  }
+  
+  b:hover {
+    color: #2fb7fe; 
+    border-bottom-color: #8e9095;
+  }
+  
