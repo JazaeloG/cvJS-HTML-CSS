@@ -6,7 +6,7 @@ function ciclofor(){
     number = numberElement.value;
     console.log(number);
     result = 1;
-    for (var i=1; 1<=number; i++){
+    for (var i=1; i<=number; i++){
         result *= i;
     }
     console.log(result);
@@ -18,7 +18,8 @@ function ciclowhile(){
     number = numberElement.value;
     console.log(number);
     result = 0;
-    while (1<=number){
+    var i=1;
+    while (i<=number){
         console.log(i);
         result +=i;
         i++;
