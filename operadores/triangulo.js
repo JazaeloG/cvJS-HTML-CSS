@@ -1,19 +1,11 @@
-var base;
-var altura;
-var area;
+const calcularBtn = document.getElementById("calcular");
+const baseInput = document.getElementById("base");
+const alturaInput = document.getElementById("altura");
+const resultadoInput = document.getElementById("resultado");
 
-function calcularArea(){
-    var baseElement = document.getElementById("base");
-    var alturaElement = document.getElementById("altura");
-    base = baseElement.value;
-    altura = alturaElement.value;
-    console.log(base);
-    console.log(altura);
-
-    area = (base * altura)/2;
-
-    console.log(area);
-
-    var alturaElement = document.getElementById("resultado");
-    alturaElement.innerHTML = 'Area = ' + area;
-   }
+calcularBtn.addEventListener("click", () => {
+  const base = parseFloat(baseInput.value);
+  const altura = parseFloat(alturaInput.value);
+  const area = (base * altura) / 2;
+  resultadoInput.value = area.toFixed(2);
+});
